@@ -1,1 +1,19 @@
-/* Add CSS Styling */
+.parrafo{
+    background-color: #FFD1D1;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#elemento__Div1{
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.parrafo-especial{
+    font-size: 24px;
+}
+
+#elemento__Div2{
+    background-color: #00ff00;
+    font-size: 24px;
+    font-weight: bold;
+}
