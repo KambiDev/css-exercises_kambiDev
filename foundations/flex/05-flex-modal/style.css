@@ -18,8 +18,11 @@ body {
 .modal {
   background: white;
   width: 480px;
+  padding: 0.8rem;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 15px;
 }
 
 .icon {
@@ -66,4 +69,30 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+/*MI SOLUCION*/
+
+.content .text{
+  font-size: 14px;
+  width: 350px;
+  text-wrap: balance;
+}
+
+.content .header{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content .container-question{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
